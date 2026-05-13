@@ -1,0 +1,2 @@
+-- Write your query below
+Select name from customers where id NOT IN ( SELECT customer_id FROM orders);
